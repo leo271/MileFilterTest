@@ -9,7 +9,7 @@
     },
     {
       "name": "collection",
-      "rootUri": "file:///Users/hagiwaraleo/.pub-cache/hosted/pub.dev/collection-1.18.0",
+      "rootUri": "file:///Users/hagiwaraleo/.pub-cache/hosted/pub.dev/collection-1.17.2",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
@@ -27,7 +27,7 @@
     },
     {
       "name": "meta",
-      "rootUri": "file:///Users/hagiwaraleo/.pub-cache/hosted/pub.dev/meta-1.11.0",
+      "rootUri": "file:///Users/hagiwaraleo/.pub-cache/hosted/pub.dev/meta-1.9.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -68,7 +68,7 @@
       "languageVersion": "3.1"
     }
   ],
-  "generated": "2023-10-12T07:42:47.156707Z",
+  "generated": "2023-10-13T02:12:42.106365Z",
   "generator": "pub",
   "generatorVersion": "3.1.3"
 }

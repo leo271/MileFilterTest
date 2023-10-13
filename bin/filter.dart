@@ -25,7 +25,7 @@ void main() async {
 
   print("学部");
   String? faculty = stdin.readLineSync();
-
+  final time = DateTime.now();
   // APIに送るデータを作成
   final Map<String, dynamic> filterData = {
     if (day != null && day.isNotEmpty) 'day': day,
@@ -42,6 +42,7 @@ void main() async {
     headers: {'Content-Type': 'application/json'},
     body: jsonEncode(filterData),
   );
+  print("time:${DateTime.now().difference(time).inMilliseconds}ms}");
 
   // レスポンスを処理
   if (response.statusCode == 200) {
